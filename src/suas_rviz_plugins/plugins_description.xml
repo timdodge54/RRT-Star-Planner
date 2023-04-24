@@ -1,0 +1,21 @@
+<library path="suas_rviz_plugins">
+
+  <class name="suas_rviz_plugins/Waypoint panel"
+         type="suas_rviz_plugins::WaypointPanel"
+         base_class_type="rviz_common::Panel">
+    <description>Used for creating a waypoint path.</description>
+  </class>
+
+  <class name="suas_rviz_plugins/Control panel"
+         type="suas_rviz_plugins::ControlPanel"
+         base_class_type="rviz_common::Panel">
+    <description>Used for high-level control of the sim.</description>
+  </class>
+
+  <class name="suas_rviz_plugins/State panel"
+         type="suas_rviz_plugins::StatePanel"
+         base_class_type="rviz_common::Panel">
+    <description>Used for setting the state in the sim.</description>
+  </class>
+
+</library>

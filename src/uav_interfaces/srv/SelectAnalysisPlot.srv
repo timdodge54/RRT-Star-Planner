@@ -1,0 +1,43 @@
+# === PLOT TYPES INDICES ===
+# For quick reference on what values in
+# GUI will do what things. Obviously the checkbox
+# labels should match:
+
+int32 STATE              = 0  # Used in lincov and pdvg interfaces
+int32 TRUTH_DISP         = 1  # Used in lincov and pdvg interfaces
+int32 NAV_DISP           = 2  # Used in lincov and pdvg interfaces
+int32 EST_ERROR          = 3  # Used in lincov and pdvg interfaces
+int32 TRUTH_DISP_OFF_REF = 4  # Used only in lincov_interface
+int32 NAV_DISP_OFF_REF   = 5  # Used only in lincov_interface
+
+# Only some of the above types are used in the PDVG interface
+int32 PDVG_PLOT_TYPE_LEN = 4
+
+# === PLOT DATA INDICES ===
+int32 POSITION = 0
+int32 EULER = 1
+int32 VELOCITY = 2
+int32 HEADING = 3
+int32 ABS_PRESSURE = 4
+int32 FEATURE_RANGE = 5
+int32 FEATURE_BEARING = 6
+int32 GPS = 7
+int32 GYRO = 8
+int32 ACCEL = 9
+
+# PDVG exclusive parameters
+bool is_pdvg_request          # Flag indicating whether request is from PDVG (true) or LinCov Interface (false)
+bool make_pdvg_error_budget   # Flag indiciating whether to make pdvg_error_budget
+bool make_pd_plots            # Flag indicating if making pd plots or not (mutually exclusive)
+
+# LinCov/Monte Carlo exclusive parameters
+int32 mc_run_downsample       # Factor by which to downsample individual MC data vectors
+
+bool save_to_pdf              # Flag indicating if CSVPlotter should save to file or just display plots
+bool[6] plot_types            # Array indicating which of the plot types to generate
+bool[10] data_types           # Array indicating what data types to plot
+string data_directory         # Directory to save data to.
+---
+bool success          # Success flag
+string message        # Message about service return status
+

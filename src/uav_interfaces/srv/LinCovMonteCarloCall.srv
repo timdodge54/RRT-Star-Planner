@@ -1,0 +1,9 @@
+# Flag options for `analysis_type` variable
+int32 LINCOV_ONLY = 0
+int32 BOTH = 1
+
+int32 num_monte_carlo_runs  # Number of Monte Carlo runs to do
+int32 analysis_type         # Which type of analysis to do, LINCOV_ONLY, or BOTH
+---
+bool success    # Whether call was successful
+string message  # Info about failure

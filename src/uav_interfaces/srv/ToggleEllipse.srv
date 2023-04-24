@@ -1,0 +1,4 @@
+float64 requested_res   # Spatial resolution (m) for LinCov markers
+---
+bool success    # If plot happened successfully
+string message  # Info about failure

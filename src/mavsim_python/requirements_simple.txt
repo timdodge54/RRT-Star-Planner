@@ -1,0 +1,16 @@
+jupyterlab
+jupyter
+numpy
+scipy
+pyopengl
+pyqtgraph
+pyqt5
+opencv-python-headless
+pillow
+pylint
+black
+isort
+pydocstyle
+mypy
+matplotlib
+control

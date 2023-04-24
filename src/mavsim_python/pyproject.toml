@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+src_paths = ["python_learning", "scripts"]
+
+[tool.pydocstyle]
+add_ignore = ["D107"]
+convention = "google"
+
+[flake8]
+max-line-length = 130

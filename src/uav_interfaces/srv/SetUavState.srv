@@ -1,0 +1,3 @@
+uav_interfaces/UavState desired_state
+---
+uav_interfaces/UavState resulting_state

@@ -1,0 +1,2 @@
+PoseWithCovarianceStampedArray poses
+float64[] radii
