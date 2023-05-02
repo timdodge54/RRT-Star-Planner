@@ -97,9 +97,17 @@ with a single turn. With these results, the expected outcome it can be vallidate
 
 ## Python Visualization
 
+[![Alt text](https://img.youtube.com/vi/ccXIsaPB2xI/0.jpg)](https://www.youtube.com/watch?v=ccXIsaPB2xI)
+
 ## ROS Visualization
 
-[![Alt text](https://img.youtube.com/vi/ccXIsaPB2xI/0.jpg)](https://www.youtube.com/watch?v=ccXIsaPB2xI)
+
 
 <!-- blank line -->
 [![Alt text](https://img.youtube.com/vi/DpdBQXtxwYk/0.jpg)](https://www.youtube.com/watch?v=DpdBQXtxwYk)
+
+## Verification of convergence to optimal solution
+
+The following figure shows the average path length given a number of iterations. It can be observed that the path length converges to the optimal solution as the number of iterations increases.
+
+![average path length](figures/average_path_length.png)
